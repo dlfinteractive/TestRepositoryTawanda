@@ -1,0 +1,61 @@
+/*
+|--------------------------------------------------------------------------
+| UItoTop jQuery Plugin 1.2
+| http://www.mattvarone.com/web-design/uitotop-jquery-plugin/
+|--------------------------------------------------------------------------
+*/
+
+#toTop {
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	/*font-size: 1.17em;
+	line-height: 22px;
+	text-transform: uppercase;
+	color:#FFF;
+	padding:2px 3px;*/
+	width:28px;
+	height:28px;
+	border:none;
+	text-indent:-99999px;
+	background:url(../img/ui.totop.png) no-repeat left top;
+	text-indent: -9999px;
+	webkit-background-size : cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    background-size : cover;
+	opacity: 0.8;
+	-moz-opacity: 0.8;
+	filter:alpha(opacity=0.8);
+	-webkit-transition   : all 400ms ease-in-out;
+	-moz-transition      : all 400ms ease-in-out;
+	-o-transition        : all 400ms ease-in-out;
+	-ms-transition       : all 400ms ease-in-out;
+	transition           : all 400ms ease-in-out;
+}
+
+#toTopHover {
+	background:url(../img/ui.totop.png) no-repeat left -45px;
+	width:45px;
+	height:45px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0);
+}
+
+#toTop:hover {
+	cursor: pointer;
+	opacity: 1.0;
+	-moz-opacity: 1.0;
+	filter:alpha(opacity=1.0);
+}
+
+#toTop:active, #toTop:focus {
+	outline:none;
+}
