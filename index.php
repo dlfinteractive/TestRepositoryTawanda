@@ -2558,10 +2558,6 @@ function printTextArea() {
 
 </script>
 <!-- -->
-<style type="text/css">
-#leader_board{display:none;}
-</style>
-
 
 </head>
 
@@ -2986,7 +2982,7 @@ Some of you are using foreign language keyboard to participate in the Security T
 May I request you NOT to use such keyboard as our system cannot read your action command and creates unnecessary glitches?<br />
 Thanks for your cooperation.</p>
 <p>Regards,<br />
-Amirul Ahsan<br />
+Annette Nguyen<br />
 (Unit Chair)</p>
     </article>
     <!-- End Leader Board content -->
